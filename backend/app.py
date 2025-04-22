@@ -10,7 +10,7 @@ import uuid
 from flask_cors import CORS
 
 app = Flask(__name__)
-CORS(app, origins=["http://localhost:3000"])
+CORS(app, origins=["https://wave-power.onrender.com"])
 
 UPLOAD_FOLDER = 'uploaded_files'
 MODEL_FOLDER = 'model'
