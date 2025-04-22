@@ -43,7 +43,7 @@ function PredictionPage() {
 
     setStatus("Uploading and processing...");
     try {
-      const response = await fetch("https://wave-power-back.onrender.com/upload", {
+      const response = await fetch("https://wave-power-back.onrender.com", {
         method: "POST",
         body: formData,
       });
